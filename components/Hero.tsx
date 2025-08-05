@@ -2,7 +2,6 @@
 "use client";
 
 import Button from "@/components/ui/Button";
-import { HandleLoginWithGoogle } from "@/utils/login";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -81,10 +80,7 @@ export default function Home() {
               }}
               className="flex flex-col sm:flex-row gap-4 items-center"
             >
-              <Button
-                onClick={HandleLoginWithGoogle}
-                className="font-semibold bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 shadow-lg hover:shadow-xl shadow-blue-600/40 transition-all duration-300 cursor-pointer hover:scale-105 px-8 py-3"
-              >
+              <Button className="font-semibold bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 shadow-lg hover:shadow-xl shadow-blue-600/40 transition-all duration-300 cursor-pointer hover:scale-105 px-8 py-3">
                 Get Started
               </Button>
             </motion.div>
