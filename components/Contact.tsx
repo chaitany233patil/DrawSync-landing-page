@@ -69,12 +69,14 @@ export default function Contact() {
 
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button
-              variant="primary"
-              className="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 hover:from-blue-700 hover:via-blue-800 hover:to-blue-900 shadow-lg shadow-blue-600/30 hover:shadow-blue-600/40 hover:scale-105 px-8 py-4 text-lg font-semibold"
-            >
-              Start Now
-            </Button>
+            <a href="https://drawsync.chaitany.space/">
+              <Button
+                variant="primary"
+                className="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 hover:from-blue-700 hover:via-blue-800 hover:to-blue-900 shadow-lg shadow-blue-600/30 hover:shadow-blue-600/40 hover:scale-105 px-8 py-4 text-lg font-semibold"
+              >
+                Start Now
+              </Button>
+            </a>
           </div>
 
           {/* Features highlight */}

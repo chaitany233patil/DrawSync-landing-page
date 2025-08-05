@@ -38,9 +38,9 @@ export default function Home() {
               }}
               className="text-lg text-neutral-200 font-light mb-6 text-center leading-7 lg:text-left lg:leading-7 max-w-xl"
             >
-              Transform brainstorming with our powerful online whiteboard{" "}
-              <br className="hidden sm:block" />
-              collaborate live, visualize ideas, and bring projects to life.
+              Transform the way you brainstorm with our powerful online
+              whiteboard collaborate in real time, visualize ideas, and bring
+              projects to life.
             </motion.div>
 
             {/* Feature highlights */}
@@ -80,9 +80,11 @@ export default function Home() {
               }}
               className="flex flex-col sm:flex-row gap-4 items-center"
             >
-              <Button className="font-semibold bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 shadow-lg hover:shadow-xl shadow-blue-600/40 transition-all duration-300 cursor-pointer hover:scale-105 px-8 py-3">
-                Get Started
-              </Button>
+              <a href="https://drawsync.chaitany.space/">
+                <Button className="font-semibold bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 shadow-lg hover:shadow-xl shadow-blue-600/40 transition-all duration-300 cursor-pointer hover:scale-105 px-8 py-3">
+                  Get Started
+                </Button>
+              </a>
             </motion.div>
           </div>
 
